@@ -12,7 +12,7 @@ function UserSearch() {
   // Handle form Submition
   const handleSubmit = (event) => {
     if (text === "") {
-      alert("Please enter something");
+      alert("please enter something");
     } else {
       searchUsers(text);
       setText("");
